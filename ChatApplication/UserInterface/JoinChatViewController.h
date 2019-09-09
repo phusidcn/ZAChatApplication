@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "../NetworkCommunication/User.h"
+#import "ChatViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface JoinChatViewController : UIViewController <UITextViewDelegate>
 
 @end
 
